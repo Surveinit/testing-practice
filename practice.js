@@ -3,7 +3,7 @@ function capitalize(word) {
 }
 
 function reverseString(word) {
-  reverse = "";
+  let reverse = "";
   for (let index = word.length - 1; index >= 0; index--) {
     reverse += word[index];
   }
@@ -30,7 +30,7 @@ const calculator = {
 
 function analyzeArray(array) {
   function sum(array) {
-    sum = 0;
+    let sum = 0;
     for (let index = 0; index < array.length; index++) {
       sum += array[index];
     }
